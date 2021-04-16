@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F74DA7D42628B3420026C299 /* SearchFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74DA7D32628B3420026C299 /* SearchFilterView.swift */; };
+		F74DA8172628DD5A0026C299 /* ItemResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74DA8102628DD590026C299 /* ItemResponse.swift */; };
+		F74DA8192628DD5A0026C299 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74DA8122628DD590026C299 /* Repository.swift */; };
 		F79232332628AB1100963D90 /* PetronasTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79232322628AB1100963D90 /* PetronasTestApp.swift */; };
-		F79232352628AB1100963D90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79232342628AB1100963D90 /* ContentView.swift */; };
+		F79232352628AB1100963D90 /* AdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79232342628AB1100963D90 /* AdminView.swift */; };
 		F79232372628AB1300963D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F79232362628AB1300963D90 /* Assets.xcassets */; };
 		F792323A2628AB1300963D90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F79232392628AB1300963D90 /* Preview Assets.xcassets */; };
 		F79232452628AB1400963D90 /* PetronasTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79232442628AB1400963D90 /* PetronasTestTests.swift */; };
 		F79232502628AB1400963D90 /* PetronasTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792324F2628AB1400963D90 /* PetronasTestUITests.swift */; };
+		F79232722628AB3200963D90 /* RepositoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79232662628AB3200963D90 /* RepositoryListView.swift */; };
+		F79232732628AB3200963D90 /* RepositoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79232672628AB3200963D90 /* RepositoryListViewModel.swift */; };
+		F79232742628AB3200963D90 /* RepositoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79232682628AB3200963D90 /* RepositoryView.swift */; };
+		F79232752628AB3200963D90 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79232692628AB3200963D90 /* WebView.swift */; };
+		F7D7C38526295C7800A8C11B /* SearchQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D7C38426295C7800A8C11B /* SearchQuery.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F74DA7D32628B3420026C299 /* SearchFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterView.swift; sourceTree = "<group>"; };
+		F74DA8102628DD590026C299 /* ItemResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemResponse.swift; sourceTree = "<group>"; };
+		F74DA8122628DD590026C299 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		F792322F2628AB1100963D90 /* PetronasTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetronasTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79232322628AB1100963D90 /* PetronasTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetronasTestApp.swift; sourceTree = "<group>"; };
-		F79232342628AB1100963D90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F79232342628AB1100963D90 /* AdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminView.swift; sourceTree = "<group>"; };
 		F79232362628AB1300963D90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F79232392628AB1300963D90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F792323B2628AB1300963D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +56,11 @@
 		F792324B2628AB1400963D90 /* PetronasTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetronasTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F792324F2628AB1400963D90 /* PetronasTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetronasTestUITests.swift; sourceTree = "<group>"; };
 		F79232512628AB1400963D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F79232662628AB3200963D90 /* RepositoryListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryListView.swift; sourceTree = "<group>"; };
+		F79232672628AB3200963D90 /* RepositoryListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryListViewModel.swift; sourceTree = "<group>"; };
+		F79232682628AB3200963D90 /* RepositoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryView.swift; sourceTree = "<group>"; };
+		F79232692628AB3200963D90 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		F7D7C38426295C7800A8C11B /* SearchQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchQuery.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +88,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F74DA80F2628DD590026C299 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F74DA8102628DD590026C299 /* ItemResponse.swift */,
+				F74DA8122628DD590026C299 /* Repository.swift */,
+				F7D7C38426295C7800A8C11B /* SearchQuery.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F79232262628AB1100963D90 = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				F79232322628AB1100963D90 /* PetronasTestApp.swift */,
-				F79232342628AB1100963D90 /* ContentView.swift */,
+				F74DA80F2628DD590026C299 /* Model */,
+				F79232652628AB3200963D90 /* View */,
 				F79232362628AB1300963D90 /* Assets.xcassets */,
 				F792323B2628AB1300963D90 /* Info.plist */,
 				F79232382628AB1300963D90 /* Preview Content */,
@@ -128,6 +155,19 @@
 				F79232512628AB1400963D90 /* Info.plist */,
 			);
 			path = PetronasTestUITests;
+			sourceTree = "<group>";
+		};
+		F79232652628AB3200963D90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F79232342628AB1100963D90 /* AdminView.swift */,
+				F79232662628AB3200963D90 /* RepositoryListView.swift */,
+				F79232672628AB3200963D90 /* RepositoryListViewModel.swift */,
+				F79232682628AB3200963D90 /* RepositoryView.swift */,
+				F79232692628AB3200963D90 /* WebView.swift */,
+				F74DA7D32628B3420026C299 /* SearchFilterView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +299,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F79232352628AB1100963D90 /* ContentView.swift in Sources */,
+				F74DA7D42628B3420026C299 /* SearchFilterView.swift in Sources */,
+				F74DA8192628DD5A0026C299 /* Repository.swift in Sources */,
+				F7D7C38526295C7800A8C11B /* SearchQuery.swift in Sources */,
+				F79232732628AB3200963D90 /* RepositoryListViewModel.swift in Sources */,
+				F79232752628AB3200963D90 /* WebView.swift in Sources */,
+				F79232352628AB1100963D90 /* AdminView.swift in Sources */,
+				F79232722628AB3200963D90 /* RepositoryListView.swift in Sources */,
+				F79232742628AB3200963D90 /* RepositoryView.swift in Sources */,
 				F79232332628AB1100963D90 /* PetronasTestApp.swift in Sources */,
+				F74DA8172628DD5A0026C299 /* ItemResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

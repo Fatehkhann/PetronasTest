@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import PetronasTest
+//@testable import PetronasTest
 
 class PetronasTestTests: XCTestCase {
 
